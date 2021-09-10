@@ -15,7 +15,7 @@ class _WelcomePageState extends State<WelcomePage> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Image(image: AssetImage('welcome.png')),
+          Image(image: NetworkImage('https://raw.githubusercontent.com/bhrigu-scoder/E-commerce-App/master/assets/images/welcome.png')),
           InkWell(
             child: Container(
               child: Text("Login",

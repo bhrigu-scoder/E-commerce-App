@@ -18,7 +18,7 @@ class _MenuState extends State<Menu> {
           Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundImage: AssetImage('girl.png'),
+                  backgroundImage: NetworkImage('https://raw.githubusercontent.com/bhrigu-scoder/E-commerce-App/master/assets/images/girl.png'),
                   radius: 30.0,
                 ),
                 SizedBox(width: 5.0),

@@ -39,8 +39,9 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             mainAxisSize: MainAxisSize.max,
             children: <Widget>[
-              Image(image: AssetImage("test.png",), height: 250.0,
-                width: 250.0,
+              Image(image: NetworkImage("https://raw.githubusercontent.com/bhrigu-scoder/E-commerce-App/master/assets/images/test.png",),
+                height: 200.0,
+                width: 200.0,
               ),
               SizedBox(height: 40.0,),
               TextField(

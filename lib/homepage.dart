@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
             alignment: Alignment.topLeft,
             width: 80.0,
             height: 80.0,
-            child: Image(image: AssetImage('burger.jfif')),
+            child: Image(image: NetworkImage('https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80')),
           ),
           onTap: (){
             Navigator.pushNamed(context, '/burger');

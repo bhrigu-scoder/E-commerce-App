@@ -38,8 +38,9 @@ class _SignupPageState extends State<SignupPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         mainAxisSize: MainAxisSize.max,
         children: <Widget>[
-          Image(image: AssetImage("signup.png",), height: 300.0,
-            width: 300.0,
+          Image(image: NetworkImage("https://raw.githubusercontent.com/bhrigu-scoder/E-commerce-App/master/assets/images/signup.png",),
+            height: 120.0,
+            width: 120.0,
           ),
           SizedBox(height: 40.0,),
           Padding(
@@ -109,7 +110,7 @@ class _SignupPageState extends State<SignupPage> {
                 borderRadius: BorderRadius.circular(30.0),
                 color: Colors.blueAccent,
               ),
-              padding: EdgeInsets.fromLTRB(125.0, 16.0, 125.0, 16.0),
+              padding: EdgeInsets.fromLTRB(100.0, 16.0, 100.0, 16.0),
               margin: EdgeInsets.fromLTRB(50.0, 0,50.0, 10.0),
             ),
             onTap: () {
